@@ -60,6 +60,11 @@
   font-family: Monserrat;
   src: url(../../assets/fonts/Montserrat.ttf);
 }
+.mainBienvenida {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/img/fondo-inicio.jpg);
+}
 .mainBienvenida .contenedorBienvenida {
   width: 100%;
   height: 100vh;
