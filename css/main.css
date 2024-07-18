@@ -82,11 +82,8 @@
   align-items: center;
   flex-direction: column;
 }
-.mainBienvenida .contenedorBienvenida .contenedorTexto .cajaNombre .contenedorNombre .logoNombre {
-  color: white;
-  font-size: 10rem;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 2px 2px 10px black;
+.mainBienvenida .contenedorBienvenida .contenedorTexto .cajaNombre .contenedorNombre img {
+  width: 100%;
 }
 .mainBienvenida .contenedorBienvenida .contenedorTexto .cajaNombre .contenedorGenero {
   width: 140%;
