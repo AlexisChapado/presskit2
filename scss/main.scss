@@ -3,7 +3,11 @@
 
 //------------abstacts------------------//
 
-
+@import "../scss/abstracts/navvarderecha";
+@import "../scss/abstracts/animation";
+@import "../scss/abstracts/extend";
+@import "../scss/abstracts/mediaqueries";
+@import "../scss/abstracts/mixins";
 
 //-------------pages-------------------//
 
@@ -15,8 +19,3 @@
 @import "../scss/pages/";
 
 
-@import "../scss/abstracts/navvarderecha";
-@import "../scss/abstracts/animation";
-@import "../scss/abstracts/extend";
-@import "../scss/abstracts/mediaqueries";
-@import "../scss/abstracts/mixins";
