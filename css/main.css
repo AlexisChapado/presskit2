@@ -101,3 +101,10 @@
   font-size: 2rem;
   font-family: letraTexto-Extralight;
 }
+
+.mainBienvenida {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/img/fondo-inicio.jpg); 
+
+  }
