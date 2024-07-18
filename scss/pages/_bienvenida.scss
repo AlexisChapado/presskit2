@@ -27,7 +27,7 @@
                     .logoNombre {
                         color: white;
                         font-size: 10rem;
-                        font-family: letraLogo;
+                        font-family: $letraLogo;
                         text-shadow: 2px 2px 10px black;
                     }
                 }
@@ -46,7 +46,7 @@
                         
                         color: white;
                         font-size: 2rem;
-                        font-family: letraTexto-Extralight;
+                        font-family: $letraTexto-Extralight;
                     }
     
                 }
