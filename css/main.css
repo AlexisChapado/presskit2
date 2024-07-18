@@ -37,27 +37,27 @@
 }
 
 @font-face {
-  font-family: Arsenall;
+  font-family: Arsenal;
   src: url(../../assets/fonts/Arsenal.ttf);
 }
 @font-face {
-  font-family: letraLogoo;
+  font-family: letraLogo;
   src: url(../../assets/fonts/letraLogo.ttf);
 }
 @font-face {
-  font-family: letraTexto-Extralightt;
+  font-family: letraTexto-Extralight;
   src: url(../../assets/fonts/letraTexto-Extralight.ttf);
 }
 @font-face {
-  font-family: letraTexto-Hardlinee;
+  font-family: letraTexto-Hardline;
   src: url(../../assets/fonts/letraTexto-Hardline.ttf);
 }
 @font-face {
-  font-family: Loverss;
+  font-family: Lovers;
   src: url(../../assets/fonts/Lovers.ttf);
 }
 @font-face {
-  font-family: Monserratt;
+  font-family: Monserrat;
   src: url(../../assets/fonts/Montserrat.ttf);
 }
 .mainBienvenida {
