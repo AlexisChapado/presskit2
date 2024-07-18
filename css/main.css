@@ -63,7 +63,9 @@
 .mainBienvenida {
   width: 100%;
   height: 100vh;
-  background-image: url(https://productordj.com/wp-content/uploads/2021/01/como-funciona-pioneer-cdj-dj.jpg);
+  background-image: url(https://drive.google.com/uc?export=view&id=1cAwFp0f6NxnrHi11q4gYr2yqJT8yLtGF);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .mainBienvenida .contenedorBienvenida {
   width: 100%;
