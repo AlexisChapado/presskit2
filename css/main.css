@@ -72,7 +72,7 @@
   backdrop-filter: blur(10px);
 }
 .mainBienvenida .contenedorBienvenida .cajaNombre {
-  width: 83%;
+  width: 90%;
   height: 100vh;
   display: flex;
   justify-content: center;

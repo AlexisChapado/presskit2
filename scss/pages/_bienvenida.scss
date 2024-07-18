@@ -10,7 +10,7 @@
         backdrop-filter: blur(10px);  
            
         .cajaNombre {
-            width: 83%;
+            width: 90%;
             height: 100vh;
 
             display: flex;
@@ -19,6 +19,8 @@
             flex-direction: column;
 
             .contenedorNombre{
+               
+                
                 .logoNombre {
                     color: white;
                     font-size: 10rem;
@@ -38,6 +40,7 @@
                 align-items: center;
 
                 .genero {
+                    
                     color: white;
                     font-size: 2rem;
                     font-family: $letraTexto-Extralight;
