@@ -1,0 +1,37 @@
+{
+  "name": "presskit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./scss/main.scss ./css/main.css"
+  },
+  "keywords": [
+    "musica electronica",
+    "progressive house",
+    "progressive",
+    "melodic house",
+    "melodic techno",
+    "techno melodico",
+    "festivales de musica electronica",
+    "fiestas electronica argentina",
+    "djs de electronica en argentina",
+    "festivales por el mundo",
+    "diversion",
+    "viaje musical",
+    "musica para fiestas",
+    "muscia electronica progresiva"
+  ],
+  "author": "Alexis Chapado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "init": "^0.1.2",
+    "node": "^22.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "sass": "^1.77.8"
+  }
+}
