@@ -1,0 +1,54 @@
+.contenedorNav {
+
+    height: 100vh;
+    width: 18rem;
+    background-color: $colorNav;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    z-index: 2;
+    .navBienvenida {
+
+        .contenedorLogo{
+
+            height: 55vh;
+            
+            .logo {
+
+                display: flex;
+                justify-content: center;
+
+                padding: 3rem;
+
+                .imgLogo {
+                    width: 13rem;
+                    
+                    
+                   
+                }
+            }
+        }
+
+        .barraNav {
+
+            ul {
+                text-align: center;
+                list-style-type: none;
+                
+                
+                li {
+                    padding: .5rem;
+                    
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 2rem;
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+}

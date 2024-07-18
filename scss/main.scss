@@ -1,0 +1,19 @@
+@import "./abstracts/resets";
+@import "../scss/abstracts/variables";
+
+//------------abstacts------------------//
+@import "../scss/abstracts/navvarderecha";
+@import "../scss/abstracts/animation";
+@import "../scss/abstracts/extend";
+@import "../scss/abstracts/mediaqueries";
+@import "../scss/abstracts/mixins";
+
+
+//-------------pages-------------------//
+
+@import "../scss/pages/bienvenida";
+@import "../scss/pages/contacto";
+@import "../scss/pages/experiencia";
+@import "../scss/pages/inicio";
+@import "../scss/pages/missets";
+@import "../scss/pages/quiensoy";
