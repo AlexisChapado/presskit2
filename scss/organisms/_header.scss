@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+    .container-fluid {
+
+        background-color: $colorNav2;
+
+        .logo {
+
+            width: 6rem;
+        }
+
+        .collapse {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .navbar-nav {
+
+                a{
+                    color: white;
+                    font-family: "DM Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    padding: 1rem;
+                }
+
+            }
+        }
+
+    }
+}
