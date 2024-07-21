@@ -1,5 +1,5 @@
 .mainBienvenida {
-  width: 85%;
+  width: 82%;
   height: 100vh;
 
   .contenedorBienvenida {
@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
 
+    
+
     .cajaNombre {
       width: 100%;
       height: 100vh;
@@ -18,24 +20,26 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-
+            
+      
       .fondo {
         width: 100%;
         height: 100vh;
         position: absolute;
         z-index: -2;
         
+        
       }
 
       .contenedorNombre {
-
         display: flex;
         justify-content: center;
         align-items: center;
+        
 
         .logoBlanco {
             object-fit: cover;
-            width: 100%;
+            width: 80rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -55,7 +59,8 @@
         .genero {
           color: white;
           font-size: 2rem;
-          font-family: $letraTexto-Extralight;
+          font-family: Montserrat, sans-serif;
+          font-weight: 200;
         }
       }
     }
