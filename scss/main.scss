@@ -1,5 +1,5 @@
 @import "./abstracts/resets";
-@import "../scss/abstracts/variables";
+@import "./abstracts/variables";
 
 //------------abstacts------------------//
 
@@ -11,10 +11,10 @@
 
 //-------------pages-------------------//
 
+@import "../scss/pages/inicio";
 @import "../scss/pages/bienvenida";
 @import "../scss/pages/contacto";
 @import "../scss/pages/experiencia";
-@import "../scss/pages/inicio";
 @import "../scss/pages/missets";
 @import "../scss/pages/quiensoy";
 
@@ -23,4 +23,10 @@
 //-------------organims-----------------//
 
 @import "../scss/organisms/header";
+@import "../scss/organisms/footer";
+
+
+//----------------base-----------------//
+
+@import "./base/globals";
 
