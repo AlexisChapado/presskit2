@@ -28,12 +28,21 @@
 .contenedorNav .navBienvenida .barraNav ul {
   text-align: center;
   list-style-type: none;
+  cursor: pointer;
+  overflow: hidden;
 }
 .contenedorNav .navBienvenida .barraNav ul li {
   padding: 0.5rem;
 }
-.contenedorNav .navBienvenida .barraNav ul li a {
+.contenedorNav .navBienvenida .barraNav ul li :hover {
   color: white;
+  border: 0;
+  border-bottom: rgb(21, 0, 206);
+  border-style: solid;
+  width: 100%;
+}
+.contenedorNav .navBienvenida .barraNav ul li a {
+  color: gray;
   text-decoration: none;
   font-size: 1.7rem;
   font-family: Montserrat;
@@ -494,6 +503,10 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
 .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
   color: white;
   transform: scale(1.1) translateY(-4px);
+  border: 0;
+  border-bottom: rgb(21, 0, 206);
+  border-style: solid;
+  width: 100%;
 }
 .navbar .container-fluid .collapse .navbar-nav .nav-item a {
   color: gray;
@@ -502,7 +515,7 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
   font-style: normal;
   font-weight: 300;
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: 0.5rem;
   position: relative;
 }
 
