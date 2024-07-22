@@ -166,7 +166,7 @@
   display: grid;
   grid-template-columns: 0.4fr 1fr 1fr 1fr 0.4fr;
   grid-template-rows: repeat(5, 1f);
-  grid-template-areas: ".    caja1        .           .        ." ".    caja1        .         caja2      caja2" ".    linea       linea      caja2      caja2" ".    caja3       caja3      caja3      ." ".    caja3       caja3      caja3      .";
+  grid-template-areas: ".    caja1        caja1           .        ." ".    caja1        caja1         caja2      caja2" ".    linea       linea      caja2      caja2" ".    caja3       caja3      caja3      ." ".    caja3       caja3      caja3      .";
   color: white;
 }
 .seccion3 .contenedorResumen {
@@ -212,7 +212,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 20vh;
 }
 .seccion3 .contenedorLinea .linea {
