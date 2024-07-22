@@ -321,7 +321,7 @@
   justify-content: center;
   align-items: center;
 }
-.navbar .container-fluid .collapse .navbar-nav a {
+.navbar .container-fluid .collapse .navbar-nav .nav-item a {
   color: white;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -329,6 +329,22 @@
   font-weight: 300;
   font-size: 1.2rem;
   padding: 1rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a :after {
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: blue;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: 0.5s;
+  z-index: 1000;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a :hover :after {
+  width: 100%;
 }
 
 .contenedorFooter {
