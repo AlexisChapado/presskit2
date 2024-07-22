@@ -37,15 +37,7 @@
                     overflow: hidden;
                     transition: transform 2s;
 
-                    :hover {
-                        color: white;
-                        transform: scale(1.1) translateY(-4px);
-                        border: 0;
-                        border-bottom: $colorLineas;
-                        border-style: solid;
-                        width: 100%;
-                        
-                    }
+                    
                     
 
                     a{
@@ -58,7 +50,15 @@
                         padding: 0.5rem;
                         position: relative;
                         
-                        
+                        &:hover {
+                            color: white;
+                            transform: scale(1.1) translateY(-4px);
+                            border: 0;
+                            border-bottom: $colorLineas;
+                            border-style: solid;
+                            width: 100%;
+                            
+                        }
                         
                     } 
         

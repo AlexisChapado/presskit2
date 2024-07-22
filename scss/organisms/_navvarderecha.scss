@@ -44,15 +44,7 @@
                 li {
                     padding: .5rem;
 
-                    :hover {
-                        color: white;
-                        border: 0;
-                        border-bottom: $colorLineas;
-                        border-style: solid;
-                        
-                        width: 100%;
-           
-                    }
+                   
                     
                     a{
                         color: gray;
@@ -60,7 +52,15 @@
                         font-size: 1.7rem;
                         font-family: Montserrat;
                         
-                        
+                        &:hover {
+                            color: white;
+                            border: 0;
+                            border-bottom: $colorLineas;
+                            border-style: solid;
+                            
+                            width: 100%;
+               
+                        }
                         
                     }
                 }

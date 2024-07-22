@@ -34,18 +34,18 @@
 .contenedorNav .navBienvenida .barraNav ul li {
   padding: 0.5rem;
 }
-.contenedorNav .navBienvenida .barraNav ul li :hover {
-  color: white;
-  border: 0;
-  border-bottom: rgb(21, 0, 206);
-  border-style: solid;
-  width: 100%;
-}
 .contenedorNav .navBienvenida .barraNav ul li a {
   color: gray;
   text-decoration: none;
   font-size: 1.7rem;
   font-family: Montserrat;
+}
+.contenedorNav .navBienvenida .barraNav ul li a:hover {
+  color: white;
+  border: 0;
+  border-bottom: rgb(21, 0, 206);
+  border-style: solid;
+  width: 100%;
 }
 
 .contenedorCompacteras {
@@ -500,14 +500,6 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
   overflow: hidden;
   transition: transform 2s;
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-  color: white;
-  transform: scale(1.1) translateY(-4px);
-  border: 0;
-  border-bottom: rgb(21, 0, 206);
-  border-style: solid;
-  width: 100%;
-}
 .navbar .container-fluid .collapse .navbar-nav .nav-item a {
   color: gray;
   font-family: "DM Sans", sans-serif;
@@ -517,6 +509,14 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
   font-size: 1.2rem;
   padding: 0.5rem;
   position: relative;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  color: white;
+  transform: scale(1.1) translateY(-4px);
+  border: 0;
+  border-bottom: rgb(21, 0, 206);
+  border-style: solid;
+  width: 100%;
 }
 
 .contenedorFooter {
