@@ -490,17 +490,15 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
   z-index: 2;
   width: 6rem;
 }
-.navbar .container-fluid .collapse {
-  display: flex;
+.navbar .container-fluid div {
   justify-content: center;
-  align-items: center;
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item {
+.navbar .container-fluid div .navbar-nav .nav-item {
   cursor: pointer;
   overflow: hidden;
   transition: transform 2s;
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+.navbar .container-fluid div .navbar-nav .nav-item a {
   color: gray;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -510,7 +508,7 @@ section .contenedorExp .cajaCompacteras .cajaEfectera li {
   padding: 0.5rem;
   position: relative;
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+.navbar .container-fluid div .navbar-nav .nav-item a:hover {
   color: white;
   transform: scale(1.1) translateY(-4px);
   border: 0;
