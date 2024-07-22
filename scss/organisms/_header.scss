@@ -19,6 +19,7 @@
         .logo {
             z-index: 2;
             width: 6rem;
+
             
         }
 
@@ -29,10 +30,22 @@
 
             .navbar-nav {
 
+            
                 .nav-item{
+                    
+                    cursor: pointer;
+                    overflow: hidden;
+                    transition: transform 2s;
+
+                    :hover {
+                        color: white;
+                        transform: scale(1.1) translateY(-4px);
+                        
+                    }
+                    
 
                     a{
-                        color: white;
+                        color: gray;
                         font-family: "DM Sans", sans-serif;
                         font-optical-sizing: auto;
                         font-style: normal;
@@ -40,28 +53,11 @@
                         font-size: 1.2rem;
                         padding: 1rem;
                         position: relative;
-    
-                        text-transform: uppercase;
-
-                        :after {
-                            content: "";
-                            width: 0%;
-                            height: 5px;
-                            background-color: blue;
-                            position: absolute;
-                            bottom: -10px;
-                            left: 0;
-                            transition: .5s;
-    
-                            z-index: 1000;
-    
-                            
-                        }  
-
-                        :hover :after{
-                            width: 100%;
-                        }
-                    }  
+                        
+                        
+                        
+                    } 
+        
                 }
             }
         }

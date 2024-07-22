@@ -39,29 +39,40 @@
   font-family: Montserrat;
 }
 
-@font-face {
-  font-family: Arsenal;
-  src: url(../../assets/fonts/Arsenal.ttf);
+.contenedorCompacteras {
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-@font-face {
-  font-family: letraLogo;
-  src: url(../../assets/fonts/letraLogo.ttf);
+
+.cajaMixers {
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-@font-face {
-  font-family: letraTexto-Extralight;
-  src: url(../../assets/fonts/letraTexto-Extralight.ttf);
+
+.cajaEfectera {
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-@font-face {
-  font-family: letraTexto-Hardline;
-  src: url(../../assets/fonts/letraTexto-Hardline.ttf);
+
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
-@font-face {
-  font-family: Lovers;
-  src: url(../../assets/fonts/Lovers.ttf);
-}
-@font-face {
-  font-family: Monserrat;
-  src: url(../../assets/fonts/Montserrat.ttf);
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
 * h3 {
   font-family: Montserrat;
@@ -94,7 +105,7 @@
 }
 .seccionInicio .imagen .backdrop {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   backdrop-filter: blur(5px);
   position: absolute;
   z-index: -2;
@@ -132,7 +143,7 @@
   align-items: center;
 }
 .seccion2 .contenedorInformacionSet .informacionSet {
-  padding: 10rem;
+  padding: 6rem;
 }
 .seccion2 .contenedorInformacionSet .informacionSet h2 {
   text-align: center;
@@ -155,7 +166,7 @@
   display: grid;
   grid-template-columns: 0.4fr 1fr 1fr 1fr 0.4fr;
   grid-template-rows: repeat(5, 1f);
-  grid-template-areas: ".    caja1        .           .        ." ".    caja1        .         caja2      ." ".    linea       linea      caja2      ." ".    caja3       caja3      caja3      ." ".    caja3       caja3      caja3      .";
+  grid-template-areas: ".    caja1        .           .        ." ".    caja1        .         caja2      caja2" ".    linea       linea      caja2      caja2" ".    caja3       caja3      caja3      ." ".    caja3       caja3      caja3      .";
   color: white;
 }
 .seccion3 .contenedorResumen {
@@ -194,14 +205,14 @@
   border: 0;
   border-left: 2px;
   border-style: solid;
-  padding: 4rem;
+  padding: 2rem;
 }
 .seccion3 .contenedorLinea {
   grid-area: linea;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 20vh;
 }
 .seccion3 .contenedorLinea .linea {
@@ -297,6 +308,141 @@
   font-weight: 200;
 }
 
+section .contenedorExp .infoExp {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: rgb(29, 28, 30);
+}
+section .contenedorExp .infoExp h2 {
+  font-size: 2.5rem;
+  color: white;
+  width: 40%;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: rgb(21, 0, 206);
+  padding: 1rem;
+  font-family: "DM Sans";
+}
+section .contenedorExp .infoExp p {
+  font-size: 1.7em;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  height: 30vh;
+  border: 0;
+  border-right: 2px;
+  border-left: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+}
+section .contenedorExp .contenedorEquipos {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: rgb(29, 28, 30);
+  color: white;
+}
+section .contenedorExp .cajaCompacteras {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(29, 28, 30);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 0.2fr 1fr;
+  grid-template-areas: ".   caja1    caja2    caja3     ." ".     .        .        .       ." ".   caja5    caja5    caja5     .";
+  padding: 1rem;
+  color: white;
+}
+section .contenedorExp .cajaCompacteras .contenedorCompacteras {
+  grid-area: caja1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+section .contenedorExp .cajaCompacteras .contenedorCompacteras li {
+  font-family: Montserrat;
+}
+section .contenedorExp .cajaCompacteras .cajaMixers {
+  grid-area: caja3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+section .contenedorExp .cajaCompacteras .cajaMixers li {
+  font-family: Montserrat;
+}
+section .contenedorExp .cajaCompacteras .cajaEfectera {
+  grid-area: caja5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 20px black;
+}
+section .contenedorExp .cajaCompacteras .cajaEfectera li {
+  font-family: Montserrat;
+}
+
+.contenedorSets {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1d1c1c;
+  padding: 10rem;
+}
+.contenedorSets .tituloSets h2 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.contenedorSets .textoSets {
+  padding: 1rem;
+}
+.contenedorSets .textoSets p {
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.contenedorQuienSoy {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1d1c1c;
+  padding: 5rem;
+}
+.contenedorQuienSoy .tituloBiografia h2 {
+  font-size: 3rem;
+  color: white;
+  padding: 1rem;
+}
+.contenedorQuienSoy .textoBiografia p {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+}
+
 .navbar {
   width: 100%;
   list-style-type: none;
@@ -321,8 +467,17 @@
   justify-content: center;
   align-items: center;
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+.navbar .container-fluid .collapse .navbar-nav .nav-item {
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 2s;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
   color: white;
+  transform: scale(1.1) translateY(-4px);
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+  color: gray;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -330,21 +485,6 @@
   font-size: 1.2rem;
   padding: 1rem;
   position: relative;
-  text-transform: uppercase;
-}
-.navbar .container-fluid .collapse .navbar-nav .nav-item a :after {
-  content: "";
-  width: 0%;
-  height: 5px;
-  background-color: blue;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  transition: 0.5s;
-  z-index: 1000;
-}
-.navbar .container-fluid .collapse .navbar-nav .nav-item a :hover :after {
-  width: 100%;
 }
 
 .contenedorFooter {
@@ -385,4 +525,10 @@
 * button a {
   text-decoration: none;
   color: black;
+}
+
+* h2 {
+  font-family: "DM Sans";
+  font-weight: 300;
+  font-size: 2.5rem;
 }
