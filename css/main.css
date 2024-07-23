@@ -195,6 +195,7 @@
   }
   main .seccion3 .contenedorResumen .resumenExp {
     width: 100%;
+    height: 60vh;
     padding: 0;
     border: 0;
   }
@@ -208,7 +209,7 @@
   }
   main .seccion3 .contenedorSets {
     width: 100%;
-    height: 0;
+    height: 20vh;
     grid-area: col2;
     padding: 0;
   }
@@ -235,6 +236,7 @@
   }
   main .seccion3 .contenedorBiografia {
     width: 100%;
+    height: 50vh;
     grid-area: col3;
   }
   main .seccion3 .contenedorBiografia .resumenBiografia {
