@@ -83,7 +83,7 @@
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 596px) {
   header .contenedorNav {
     height: 33vh;
     width: 100%;
@@ -158,7 +158,7 @@
   }
   main .seccion2 {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
   }
   main .seccion2 .informacionSet {
     width: 100%;
@@ -257,7 +257,109 @@
     width: 100%;
     font-size: 1rem;
   }
+  main {
+    height: 170vh;
+    background-color: #1d1c1c;
+  }
+  main section {
+    width: 100%;
+    height: 170vh;
+  }
+  main section .contenedorExp {
+    width: 100%;
+  }
+  main section .contenedorExp .infoExp {
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+  }
+  main section .contenedorExp .infoExp h2 {
+    margin-top: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+  }
+  main section .contenedorExp .infoExp p {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  main section .contenedorExp .contenedorEquipos {
+    padding: 10px;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+  }
+  main section .contenedorExp .contenedorEquipos .equipos h2 {
+    font-size: 1.5rem;
+  }
+  main section .contenedorExp .cajaCompacteras {
+    width: 100%;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "colum1" "colum2" "colum3";
+    padding: 0;
+  }
+  main section .contenedorExp .cajaCompacteras .contenedorCompacteras {
+    grid-area: colum1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .contenedorExp .cajaCompacteras .cajaMixers {
+    grid-area: colum2;
+  }
+  main section .contenedorExp .cajaCompacteras .cajaEfectera {
+    grid-area: colum3;
+  }
+  main {
+    height: 100vh;
+  }
+  main .contenedorSets {
+    padding: 0;
+    height: 100vh;
+  }
+  main .contenedorSets .tituloSets h2 {
+    font-size: 1.7rem;
+  }
+  main .contenedorSets .textoSets p {
+    font-size: 1rem;
+  }
+  main {
+    height: 120vh;
+  }
+  main .contenedorQuienSoy {
+    padding: 0;
+  }
+  main .contenedorQuienSoy .tituloBiografia {
+    margin-top: 100%;
+  }
+  main .contenedorQuienSoy .tituloBiografia h2 {
+    font-size: 1.7rem;
+  }
+  main .contenedorQuienSoy .textoBiografia p {
+    font-size: 1rem;
+  }
+  main {
+    width: 100%;
+  }
+  main .formulario {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+  }
+  main .formulario form {
+    margin-top: 20%;
+    width: 100%;
+    height: 100vh;
+  }
+  main .formulario form .mb-3 {
+    width: 20rem;
+  }
   footer .contenedorFooter {
+    width: 100%;
     height: 100vh;
     background-color: #1d1c1c;
   }
