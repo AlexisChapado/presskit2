@@ -4,6 +4,7 @@
   // -------Nav Index ------//
 
   header {
+
     .contenedorNav {
       height: 33vh;
       width: 100%;
@@ -42,7 +43,7 @@
   }
   .mainBienvenida {
     width: 100%;
-    height: 100%;
+    height: 0;
 
     .contenedorBienvenida {
       .cajaNombre {
@@ -77,8 +78,9 @@
 
   // Seccion Inicio //
   main {
+    
     .seccionInicio {
-      height: 80vh;
+      
       .imagen {
         width: 100%;
         background-color: $colorNav2;
@@ -375,3 +377,384 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+    // Index //
+  
+    // -------Nav Index ------//
+  
+    header {
+      .contenedorNav {
+        height: 33vh;
+        width: 100%;
+  
+        .navBienvenida {
+          .contenedorLogo {
+            height: 0;
+  
+            .logo {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              padding: 10px;
+  
+              .imgLogo {
+                width: 10rem;
+              }
+            }
+          }
+        }
+  
+        .barraNav {
+          ul {
+            li {
+              display: flex;
+              flex-direction: row;
+              justify-content: end;
+              a {
+                font-size: 1em;
+                font-family: Montserrat;
+              }
+            }
+          }
+        }
+      }
+    }
+    .mainBienvenida {
+      width: 100%;
+      height: 100%;
+  
+      .contenedorBienvenida {
+        .cajaNombre {
+          .fondo {
+            object-fit: cover;
+          }
+  
+          .contenedorNombre {
+            width: 100%;
+  
+            .logoBlanco {
+              margin: 5rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+  
+          .contenedorGenero {
+            margin-left: 20rem;
+            text-align: center;
+  
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  
+    // --------- Inicio --------------//
+  
+    // Seccion Inicio //
+    main {
+      .seccionInicio {
+        height: 80vh;
+        .imagen {
+          width: 100%;
+          
+  
+          .img {
+            width: 0%;
+            object-fit: cover;
+          }
+  
+          .backdrop {
+            width: 100%;
+          }
+        }
+  
+        .inicioFrase {
+          padding: 1rem;
+  
+          .textoH2 {
+            width: 100%;
+            padding: 0;
+            font-size: 2rem;
+            text-align: center;
+            z-index: 2;
+          }
+        }
+      }
+  
+      .seccion2 {
+        width: 100%;
+        height: 100vh;
+  
+        .informacionSet {
+          width: 100%;
+  
+          z-index: 2;
+  
+          h2 {
+            width: 100%;
+            font-size: 1.7rem;
+          }
+          p {
+            width: 100%;
+            font-size: 1rem;
+          }
+        }
+  
+        .contenedorImagenSet {
+          width: 0%;
+          left: 0;
+          img {
+            width: 100px;
+          }
+        }
+      }
+  
+      .seccion3 {
+        width: 100%;
+        height: 120vh;
+  
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+          "col1"
+          "col2"
+          "col3"
+          "col4";
+  
+        .contenedorResumen {
+          width: 100%;
+          height: 50vh;
+          grid-area: col1;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          .resumenExp {
+            width: 100%;
+            height: 60vh;
+            padding: 0;
+            border: 0;
+  
+            h3 {
+              width: 100%;
+              font-size: 1.7rem;
+            }
+  
+            p {
+              width: 100%;
+              font-size: 1rem;
+            }
+          }
+        }
+  
+        .contenedorSets {
+          width: 100%;
+          height: 20vh;
+          grid-area: col2;
+          padding: 0;
+          z-index: 2;
+  
+          .resumenSets {
+            width: 100%;
+            padding: 0;
+            border: 0;
+  
+            h3 {
+              width: 100%;
+              font-size: 1.7rem;
+            }
+  
+            p {
+              width: 100%;
+              font-size: 1rem;
+            }
+          }
+        }
+  
+        .contenedorLinea {
+          grid-area: col4;
+          width: 0%;
+          height: 0vh;
+          .linea {
+            margin-bottom: 0;
+          }
+        }
+  
+        .contenedorBiografia {
+          width: 100%;
+          height: 50vh;
+          grid-area: col3;
+  
+          .resumenBiografia {
+            width: 100%;
+            padding: 0;
+            border: 0;
+            h3 {
+              width: 100%;
+              font-size: 1.7rem;
+            }
+  
+            p {
+              width: 100%;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  
+    // Fin de la pagina de Inicio//
+    // Inicio Experiencia //
+    main {
+        
+      
+      section {
+        width: 100%;
+        height: 100vh;
+        
+        .contenedorExp {
+          width: 100%;
+          .infoExp {
+            width: 100%;
+            height: 40vh;
+            padding: 0;
+            h2 {
+              margin-top: 10%;
+              padding: 10px;
+              font-size: 1.7rem;
+            }
+            p {
+              width: 100%;
+              padding: 10px;
+              font-size: 1rem;
+            }
+          }
+  
+          .contenedorEquipos {
+            padding: 10px;
+            height: 10vh;
+            width: 100%;
+            text-align: center;
+            .equipos {
+
+              h2 {
+                font-size: 1.5rem;
+              }
+            }
+          }
+  
+          .cajaCompacteras {
+            width: 100%;
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+              "colum1"
+              "colum2"
+              "colum3";
+  
+            padding: 0;
+  
+            .contenedorCompacteras {
+              grid-area: colum1;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+  
+            .cajaMixers {
+              grid-area: colum2;
+            }
+  
+            .cajaEfectera {
+              grid-area: colum3;
+            }
+          }
+        }
+      }
+    }
+    // fin pagina experiencia //
+  
+    // inicio pagina Sets //
+    main {
+      
+      .contenedorSets {
+        padding: 0;
+        height: 100vh;
+        .tituloSets {
+          h2 {
+            font-size: 1.7rem;
+          }
+        }
+  
+        .textoSets {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    // fin pagina de sets //
+  
+    // inicio pagina biografia //
+    main {
+      height: 80vh;
+  
+      .contenedorQuienSoy {
+        padding: 0;
+  
+        .tituloBiografia {
+          
+          h2 {
+            font-size: 1.7rem;
+          }
+        }
+  
+        .textoBiografia {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    // fin pagina de biografia //
+  
+    //inicio pagina contacto  //
+    main {
+      .formulario {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+  
+        form {
+          margin-top: 20%;
+          width: 100%;
+          height: 100vh;
+  
+          .mb-3 {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  
+    // fin pagina contacto //
+  
+    footer {
+        margin-top: 16rem;
+      .contenedorFooter {
+        width: 100%;
+        height: 56vh;
+        background-color: $colorNav2;
+      }
+    }
+  }
