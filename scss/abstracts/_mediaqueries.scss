@@ -1,0 +1,256 @@
+@media (max-width: 480px){
+
+        // Index //
+
+// -------Nav Index ------//
+   
+    header {
+        .contenedorNav {
+            height: 27vh;
+            width: 100%;
+            
+            .navBienvenida {
+
+                .contenedorLogo {
+                    height: 0;
+                    
+                    .logo {
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        padding: 10px;
+
+                        .imgLogo {
+                            width: 10rem;
+                        }
+                    }
+                }
+
+            }
+
+            .barraNav {
+
+                ul {
+                    
+                    li {                   
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        a{
+                            
+                            font-size: 1em;
+                            font-family: Montserrat;
+                        }
+                    }
+                }
+            }     
+        }
+    }
+    .mainBienvenida {
+
+        width: 100%;
+        height: 100%;
+
+        .contenedorBienvenida {
+            
+            .cajaNombre {
+
+                .fondo {
+                   object-fit: cover;
+                   
+                }
+            
+            .contenedorNombre{
+                width: 100%;
+                    
+                .logoBlanco {
+                    
+                    margin: 5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                }
+            }
+
+            .contenedorGenero {
+                margin-left: 20rem;
+                text-align: center;
+            }
+                
+            }
+        }
+
+    }    
+    
+    // --------- Inicio --------------//
+
+    // Seccion Inicio //
+    main {
+        
+        .seccionInicio {
+            height: 70vh;
+            .imagen {
+                
+                width: 100%;
+                background-color: $colorNav2;
+                
+                
+
+                .img {
+                    width: 0%;
+                    object-fit: cover;
+
+                }
+
+                .backdrop {
+                    width: 100%;
+
+                }
+
+                
+            }
+
+            .inicioFrase{
+
+                padding: 1rem;
+
+                .textoH2{
+                    width: 100%;
+                    padding: 0;
+                    font-size: 2rem;
+                    text-align: center;
+                    z-index: 2;
+                    
+                }
+            }
+        }
+    
+
+        .seccion2 {
+            width: 100%;
+
+            
+            .informacionSet {
+                width: 100%;
+                
+                z-index: 2;
+                
+                
+                h2 {
+                    width: 100%;
+                    font-size: 1.7rem;
+                }
+                p{
+                    width: 100%;
+                    font-size: 1rem;
+                }
+            }
+
+            .contenedorImagenSet {
+                width: 0%;
+                left: 0;
+                img {
+                    width: 100px;
+                }
+            }
+
+        }
+
+        .seccion3 {
+            width: 100%;
+            height: 100vh;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas:
+            "col1"
+            "col2"
+            "col3"
+            "col4"
+            ;
+
+            .contenedorResumen{
+                width: 100%;
+                height: 50vh;
+                grid-area: col1;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .resumenExp {
+                    width: 100%;
+                    padding: 0;
+                    border: 0;
+
+                    h3 {
+                        width: 100%;
+                        font-size: 1.7rem;
+                    }
+
+                    p{
+                        width: 100%;
+                        font-size: 1rem;
+                    }
+                    
+                    
+                }
+            }
+
+            .contenedorSets{
+                width: 100%;
+                height: 0;
+                grid-area: col2;
+                padding: 0;
+                
+                .resumenSets {
+                    width: 100%;
+                    padding: 0;
+                    border: 0;
+                  
+
+                    h3 {
+                        width: 100%;
+                        font-size: 1.7rem;
+                    }
+
+                    p{
+                        width: 100%;
+                        font-size: 1rem;
+                    }  
+                }
+            }
+
+            .contenedorLinea{
+                grid-area: col4;
+                width: 0%;
+                height: 0vh;
+                .linea {
+                    margin-bottom: 0;
+                }
+            }
+
+            .contenedorBiografia{
+                width: 100%;
+                grid-area: col3;
+
+                .resumenBiografia {
+                    width: 100%;
+                    padding: 0;
+                    border: 0;
+                    h3 {
+                        width: 100%;
+                        font-size: 1.7rem;
+                    }
+
+                    p{
+                        width: 100%;
+                        font-size: 1rem;
+                    } 
+                }
+            }
+
+        }
+    }
+}

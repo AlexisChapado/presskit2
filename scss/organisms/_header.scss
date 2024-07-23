@@ -26,6 +26,7 @@
         div {
            
             justify-content: center;
+            align-items: center;
 
 
             .navbar-nav {
@@ -52,7 +53,7 @@
                         
                         &:hover {
                             color: white;
-                            transform: scale(1.1) translateY(-4px);
+                            transform: scale(1.1) translateX(1px);
                             border: 0;
                             border-bottom: $colorLineas;
                             border-style: solid;
